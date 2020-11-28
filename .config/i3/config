@@ -575,9 +575,9 @@ bindsym $mod+F1 exec --no-startup-id exo-open --launch webbrowser;focus
 bindsym $mod+w exec --no-startup-id exo-open --launch webbrowser;focus
 bindsym control+mod1+g exec --no-startup-id chromium;focus
 
-#PCManFM File Manager
+#Spacefm File Manager
 #workspace  3 @startup
-bindsym $mod+F2 exec --no-startup-id pcmanfm;focus
+bindsym $mod+F2 exec --no-startup-id spacefm;focus
 
 #Firefox
 #Workspace 1 @startup
@@ -812,7 +812,7 @@ popup_during_fullscreen smart
 
 
 for_window [class="^.*"] border pixel 2
-gaps inner 5
+gaps inner 8
 gaps outer 5
 #smart_gaps on
 #smart_borders on
