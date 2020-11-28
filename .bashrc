@@ -14,9 +14,9 @@
 
 export HISTCONTROL=ignoreboth:erasedups
 
+#custom shell prompt
 #PS1='[\u@\h \W]\$ ' - Original - EDH
 PS1='[\u@\h:$(pwd)]$ '
-#PS1='$(whoami)@$(hostname):$(pwd)$' - Not Quite Right - EDH
 
 if [ -d "$HOME/.bin" ] ;
   then PATH="$HOME/.bin:$PATH"
