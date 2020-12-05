@@ -1,5 +1,5 @@
 #!/bin/bash
-#practice.sh
+#Dedit.sh
 # This is a test script
 
 myDir='/home/erik/.config/'
@@ -12,6 +12,6 @@ if [ "$dirChoice" == "quit" ]; then
 elif [ "$dirChoice" == ${dirChoice} ]; then
   fileOptions=$(cd ${myDir}${dirChoice} && /bin/ls -Ap |cut -d " " -f 1 | grep -v /)
   fileChoice=$(echo -e "${fileOptions[@]}" | dmenu -i -l 15 -p 'Edit This File: ')
-  exec /usr/bin/geany ${myDir}${dirChoice}${fileChoice}
+  exec /usr/bin/vim ${myDir}${dirChoice}${fileChoice}
 fi
 

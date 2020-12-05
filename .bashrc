@@ -14,9 +14,24 @@
 
 export HISTCONTROL=ignoreboth:erasedups
 
-#custom shell prompt
+##### custom shell prompt #####
+
 #PS1='[\u@\h \W]\$ ' - Original - EDH
-PS1='[\u@\h:$(pwd)]$ '
+#PS1='[\u@\h:$(pwd)]$ ' - With full path
+#Colorized
+PS1='\e[0;32m[\u@\h:]\e[m \e[0;36m$(pwd) $\e[m '
+
+#Colors
+#Replace 0; with 1; to get lighter color
+#Black 0;30
+#Blue 0;34
+#Green 0;32
+#Cyan 0;36
+#Red 0;31
+#Purple 0;35
+#Brown 0;33
+
+###############################
 
 if [ -d "$HOME/.bin" ] ;
   then PATH="$HOME/.bin:$PATH"
@@ -60,6 +75,9 @@ alias .3='../../..'
 alias .4='../../../..'
 alias .5='../../../../..' 
 
+#Update system
+alias update="pacman -Syu" 
+
 #Change terminal editor to vim - EDH
 export VISUAL=vim
 export EDITOR=vim
@@ -70,7 +88,7 @@ alias bt="bashtop"
 #vi for vim
 alias vi="vim"
 
-# clear the screen
+#clear the screen
 alias cl="clear"
 
 #readable output

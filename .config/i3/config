@@ -419,6 +419,9 @@ exec --no-startup-id i3-msg 'workspace 1; exec /usr/bin/barrier'
 # Autotiling
 exec_always --no-startup-id autotiling
 
+# Redshift - screen temprature control
+exec_always --no-startup-id redshift-gtk
+
 #browser
 #exec --no-startup-id vivaldi-stable
 #for_window [class="Vivaldi-stable"] focus - EDH
