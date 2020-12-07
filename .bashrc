@@ -33,6 +33,8 @@ PS1='\e[0;32m[\u@\h:]\e[m \e[0;36m$(pwd) $\e[m '
 
 ###############################
 
+
+set number=relative
 if [ -d "$HOME/.bin" ] ;
   then PATH="$HOME/.bin:$PATH"
 fi

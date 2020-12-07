@@ -80,7 +80,7 @@ volume-max = #bf616a
 
 monitor = ${env:MONITOR}
 ;monitor-fallback = HDMI1
-monitor-strict = false
+monitor-strict = false 
 override-redirect = false
 bottom = false
 fixed-center = true
@@ -98,7 +98,7 @@ foreground = ${colors.foreground}
 
 radius = 0.0
 line-size = 2
-line-color = #000000
+line-color = #000000  ;EDH
 
 border-size = 0
 ;border-left-size = 25
@@ -119,11 +119,10 @@ font-1 = "FontAwesome:size=10;0"
 font-2 = "Noto Sans:size=10;0"
 font-3 = "Noto Sans Mono:size=10;0"
 
-modules-left = i3 xwindow
-#modules-center = kernel
-#modules-center = networkspeedup networkspeeddown
-modules-right = networkspeedup networkspeeddown memory2 cpu2 volume date 
-
+modules-left = i3 xwindow -EDH
+modules-center = date weather 
+;modules-right = networkspeedup networkspeeddown memory2 cpu2 volume 
+modules-right = volume 
 separator = //
 
 ;dim-value = 1.0
@@ -998,6 +997,7 @@ label-focused = %icon% %name%
 label-focused-background = ${colors.background}
 label-focused-foreground = ${colors.foreground}
 label-focused-underline = #6790eb
+;label-focused-underline = #002f343f -EDH
 label-focused-padding = 2
 
 ; Available tokens:
@@ -1235,7 +1235,8 @@ format-background = ${colors.background}
 ;   
 format-prefix = " "
 format-prefix-foreground = #cd1f3f
-format-underline = #cd1f3f
+;format-underline = #cd1f3f
+format-underline = #000000
 
 ; Available tags:
 ;   <label> (default)
@@ -1289,7 +1290,8 @@ format-foreground = ${colors.foreground}
 format-background = ${colors.background}
 format-prefix = "  "
 format-prefix-foreground = #cd1f3f
-format-underline = #cd1f3f
+;format-underline = #cd1f3f
+format-underline = #112f343f
 
 label-font = 3
 
@@ -1317,16 +1319,19 @@ type = internal/date
 interval = 5
 ; See "http://en.cppreference.com/w/cpp/io/manip/put_time" for details on how to format the date string
 ; NOTE: if you want to use syntax tags here you need to use %%{...}
-date = " %Y-%m-%d%"
-date-alt = " %d-%m-%Y"
-time = %H:%M
-time-alt = %H:%M
-format-prefix = " "
+date = %a,  %b %d %Y 
+;date = " %Y-%m-%d%"
+;date-alt = " %d-%m-%Y"
+time = %l: %M %p
+;time = %H:%M
+;time-alt = %H:%M
+;format-prefix = " "
 format-prefix-foreground = #c1941a
-format-underline = #c1941a
+;format-underline = #c1941a
+format-underline = #002f343f -EDH
 format-foreground = ${colors.foreground}
 format-background = ${colors.background}
-label = %date% %time%
+label = %date%    %time%
 
 #################################################################
 
@@ -1509,7 +1514,8 @@ bar-used-empty-foreground = #ffffff
 format = <label> <bar-used>
 format-prefix = "  "
 format-prefix-foreground = #3384d0
-format-underline = #3384d0
+;format-underline = #3384d0
+format-underline = #002f343f -EDH
 format-foreground = ${colors.foreground}
 format-background = ${colors.background}
 
@@ -1533,7 +1539,8 @@ label = %percentage_used%%
 format = Mem <label>
 format-prefix = "  "
 format-prefix-foreground = #3384d0
-format-underline = #3384d0
+;format-underline = #3384d0
+format-underline = #002f343f ;-EDH
 format-foreground = ${colors.foreground}
 format-background = ${colors.background}
 
@@ -1767,7 +1774,7 @@ interval = 2
 format-padding = 1
 format-foreground = ${colors.foreground}
 format-background = ${colors.background}
-format-underline = #C1B93E
+format-underline = #002f343f
 format-prefix-foreground = #C1B93E
 label =  %output:0:150:%
 
@@ -1837,14 +1844,14 @@ format-muted-foreground = ${colors.foreground}
 format-muted-background = ${colors.background}
 
 ################################################################################
-
+#Edited
 [module/weather]
 type = custom/script
 interval = 10
 format = <label>
 format-prefix = " "
 format-prefix-foreground = #3EC13F
-format-underline = #3EC13F
+format-underline = #002f343f
 format-foreground = ${colors.foreground}
 format-background = ${colors.background}
 exec = python -u ~/.config/polybar/scripts/weather.py
