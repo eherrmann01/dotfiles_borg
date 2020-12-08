@@ -1,4 +1,3 @@
-#
 # ~/.bashrc
 #
 #
@@ -109,6 +108,12 @@ alias calc="galculator"
 
 #config for git_dotfile_repo
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME' 
+
+#ranger
+alias fm="ranger"
+
+#exit terminal
+alias ':q'='exit'
 
 ########################################
 
