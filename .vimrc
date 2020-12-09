@@ -13,7 +13,8 @@ set nobackup
 set undodir=~/.vim/undodir
 set undofile
 set incsearch
-
+set path+=**
+set hidden
 "set colorcolumn=80
 "highlight ColorColumn ctermbg=4  
 nmap <F6> :NERDTreeToggle<CR>
