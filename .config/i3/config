@@ -127,12 +127,12 @@ bindsym $mod+Shift+0 move container to workspace 10; workspace 10
 
 
 #####################################################################################################################
-#################                          3 menu's in arcolinux                                     #################
+#################                          3 menus in arcolinux                                     #################
 #####################################################################################################################
 
 # start dmenu
 #bindsym $mod+shift+d exec --no-startup-id dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'NotoMonoRegular:bold:pixelsize=14'
-bindsym $mod+shift+d exec --no-startup-id dmenu_run -i -nb '#191919' -nf '#5fb1ba' -sb '#5fb1ba' -sf '#191919' -fn 'NotoMonoRegular:bold:pixelsize=14'
+bindsym $mod+d exec --no-startup-id dmenu_run -i -nb '#191919' -nf '#5fb1ba' -sb '#5fb1ba' -sf '#191919' -fn 'NotoMonoRegular:bold:pixelsize=14'
 
 # gmrun
 bindsym mod1+F2 exec --no-startup-id gmrun
@@ -239,7 +239,7 @@ bindsym $mod+Shift+Right move right
 
 
 #####################################################################################################################
-#################                          moving around workspaces                                 #################
+#################                       m  moving around workspaces                                 #################
 #####################################################################################################################
 
 
@@ -813,7 +813,7 @@ popup_during_fullscreen smart
 # want it
 
 
-for_window [class="^.*"] border pixel 0
+for_window [class="^.*"] border pixel 0  #EDH
 gaps inner 8
 gaps outer 5
 #smart_gaps on

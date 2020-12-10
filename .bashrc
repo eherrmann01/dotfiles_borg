@@ -46,12 +46,12 @@ fi
 bind "set completion-ignore-case on"
 
 #list
-alias ls='exa -al --color=always --group-directories-first | more'
-#alias ls='ls --color=auto'
+alias dir='exa -al --color=always --group-directories-first | more'
+alias ls='ls --color=auto'
 alias la='ls -a'
 alias ll='ls -lah'
 alias l='ls'
-alias l.="ls -A | egrep '^\.'"
+alias l.='ls -A | egrep '^\.' | more'
 #fix obvious typo's
 alias cd..='cd ..'
 alias pdw="pwd"
