@@ -30,11 +30,11 @@ set statusline +=%1*%=%5l%*             "current line
 set statusline +=%2*/%L%*               "total lines
 set statusline +=%1*%4v\ %*             "virtual column number
 set statusline +=%2*0x%04B\ %*          "character under cursor
-hi User1 ctermfg=3 ctermbg=4
-hi User2 ctermfg=3 ctermbg=4
-hi User3 ctermfg=3 ctermbg=4
-hi User4 ctermfg=3 ctermbg=4
-hi User5 ctermfg=3 ctermbg=4
+hi User1 ctermfg=15 ctermbg=4
+hi User2 ctermfg=15 ctermbg=4
+hi User3 ctermfg=15 ctermbg=4
+hi User4 ctermfg=15 ctermbg=4
+hi User5 ctermfg=15 ctermbg=4
 
 call plug#begin('~/.vim/plugged')  
 Plug 'tpope/vim-sensible'
