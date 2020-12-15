@@ -485,7 +485,7 @@ exec --no-startup-id xfce4-clipman
 
 #Polybar
 exec_always --no-startup-id ~/.config/polybar/launch.sh &
-\
+
 #mousefix
 exec_always --no-startup-id ~/mousefix.sh &
 
