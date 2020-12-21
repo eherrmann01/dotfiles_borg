@@ -422,24 +422,16 @@ exec_always --no-startup-id autotiling
 # Redshift - screen temprature control
 exec_always --no-startup-id redshift-gtk
 
-#browser
-#exec --no-startup-id vivaldi-stable
-#for_window [class="Vivaldi-stable"] focus - EDH
-
 #text-editor
 #exec --no-startup-id geany
-#exec --no-startup-id atom
 
 #file manager
 #exec --no-startup-id i3-msg 'workspace 3; exec /usr/bin/pcmanfm'
 #Mail clients
-#exec --no-startup-id mail  - 2
 
 #Music
 #exec --no-startup-id spotify
 for_window [class="Spotify"] focus
-
-
 
 # TRAY APPLICATIONS
 
@@ -476,9 +468,6 @@ exec_always --no-startup-id numlockx on
 
 # clipman
 exec --no-startup-id xfce4-clipman
-
-#Conky
-#exec --no-startup-id conky -c ~/.config/i3/system-overview - EDH
 
 #feh sets wallpaper
 #exec --no-startup-id feh --bg-scale /usr/share/backgrounds/arcolinux/breakingofday-1920x1080.png & - EDH
@@ -607,6 +596,8 @@ bindsym $mod+F10 exec --no-startup-id spotify;focus
 #Ranger terminal file browser
 bindsym $mod+mod1+r exec --no-startup-id termite -e "ranger";focus
 
+#Xmenu
+bindsym $mod+m exec --no-startup-id ~/bin/xmenu/xmenu.sh
 
 #####################################################################################################################
 #################                          screenshots                                              #################
