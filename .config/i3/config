@@ -925,7 +925,7 @@ bindsym control+mod1+o exec --no-startup-id ~/.config/i3/scripts/picom-toggle.sh
 
 # NOT USED
 
-bindsym --release $mod+button3 exec --no-startup-id ~/bin/xmenu/xmenu.sh -e
+bindsym --release button3 exec --no-startup-id /home/erik/bin/xmenu/xmenu.sh -e
 
 # mouse settings
 # The middle button over a titlebar kills the window

@@ -12,6 +12,8 @@
 [[ $- != *i* ]] && return
 
 export HISTCONTROL=ignoreboth:erasedups
+export VISUAL=vim;
+export EDITOR=vim;
 
 ##### custom shell prompt #####
 
