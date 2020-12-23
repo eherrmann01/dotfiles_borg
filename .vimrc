@@ -40,4 +40,5 @@ call plug#begin('~/.vim/plugged')
 Plug 'tpope/vim-sensible'
 Plug 'junegunn/seoul256.vim'
 Plug 'git@github.com:Valloric/YouCompleteMe.git'
+Plug 'git@github.com:mattn/emmet-vim.git'
 call plug#end()

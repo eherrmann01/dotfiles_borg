@@ -1,2 +1,4 @@
 #!/bin/bash
+# This file is used for xmenu
+
 vim ~/.config/xfce4/terminal/terminalrc

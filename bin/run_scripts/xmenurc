@@ -1,2 +1,4 @@
 !#/bin/bash
+# This file is used for xmenu
+
 vim ~/bin/xmenu/xmenu.sh

@@ -33,12 +33,22 @@ Office
 Dev Tools
 	Geany			geany
 	VSCodium		codium
+
+File Managers
+	Dolphin			dolphin
+	Pcmanfm			pcmanfm
+	Ranger			termite -e /usr/local/bin/ranger
+	Spacefm			spacefm
+	Thunar			thunar
+	Vifm			termite -e vifm
+
 System Tools
 	Barrier			barrier
-	File Manager	dolphin
+	Bashtop			termite -e bashtop
 	File Search		catfish
+	Gparted			gparted
+	HTOP			termite -e htop
 	ISO writer		/opt/balenaEtcher/balena-etcher-electron %U
-	Ranger			termite -e /usr/local/bin/ranger
 	Timeshift		timeshift-launcher
 	Tweaks			arcolinux-tweak-tool
 	Nitrogen		nitrogen
@@ -49,12 +59,14 @@ Edit Config Files
 	Picom			exec termite -e ~/bin/run_scripts/picomrc
 	Polybar			exec termite -e ~/bin/run_scripts/pbrc
 	Termite			exec termite -e ~/bin/run_scripts/termrc
+	Vifmrc			exec termite -e ~/bin/run_scripts/vifmrc
 	Vimrc			exec termite -e ~/bin/run_scripts/virc
 	Xfce			exec termite -e ~/bin/run_scripts/xfcerc
 	Xmenu			exec termite -e ~/bin/run_scripts/xmenurc
 
 Terminal (Termite)	termite	
 Terminal (Xfce) 	xfce4-terminal
+Terminal (Urxvt)	urxvt
 
 Shutdown		poweroff
 Reboot			reboot

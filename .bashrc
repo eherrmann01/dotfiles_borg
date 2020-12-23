@@ -91,6 +91,9 @@ alias bt="bashtop"
 #vi for vim
 alias vi="vim"
 
+#vf for vifm
+alias vf="vifm"
+
 #clear the screen
 alias cl="clear"
 
@@ -291,3 +294,4 @@ ex ()
 [[ -f ~/.bashrc-personal ]] && . ~/.bashrc-personal
 
 neofetch
+set -o vi

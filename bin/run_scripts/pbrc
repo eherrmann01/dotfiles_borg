@@ -1,2 +1,4 @@
 #!/bin/bash
-vim ~/.config/i3/config-polybar
+# This file is used by xmenu
+
+vim ~/.config/polybar/config

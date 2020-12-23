@@ -1,2 +1,4 @@
 #!/bin/bash
+# This file is used by xmenu
+
 vim ~/.bashrc

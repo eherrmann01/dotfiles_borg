@@ -239,7 +239,7 @@ bindsym $mod+Shift+Right move right
 
 
 #####################################################################################################################
-#################                       m  moving around workspaces                                 #################
+#################                          moving around workspaces                                 #################
 #####################################################################################################################
 
 
@@ -268,7 +268,7 @@ for_window [urgent=latest] focus
 default_orientation horizontal
 
 # split in horizontal orientation - EDH
-#bindsym $mod+shift+h split h
+# bindsym $mod+h split h
 
 # split in vertical orientation
 bindsym $mod+v split v
