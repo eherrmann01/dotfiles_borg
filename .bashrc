@@ -11,6 +11,7 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+export PATH=”$HOME/.emacs.d/bin:$PATH”~* DOOMDIR
 export HISTCONTROL=ignoreboth:erasedups
 export VISUAL=vim;
 export EDITOR=vim;

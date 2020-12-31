@@ -30,8 +30,10 @@ Office
 	Libre Office Math	libreoffice --math
 	Libre Office Write	libreoffice --writer
 
-Dev Tools
+Dev Tools / Editors
+	Emacs			emacs
 	Geany			geany
+	Vim				termite -e vim
 	VSCodium		codium
 
 File Managers

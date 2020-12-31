@@ -38,7 +38,9 @@ hi User5 ctermfg=15 ctermbg=4
 
 call plug#begin('~/.vim/plugged')  
 Plug 'tpope/vim-sensible'
-Plug 'junegunn/seoul256.vim'
+Plug 'junegunn/seoul256.vim' 
+Plug 'junegunn/goyo.vim' 
+Plug 'git@github.com:PotatoesMaster/i3-vim-syntax.git'
 Plug 'git@github.com:Valloric/YouCompleteMe.git'
 Plug 'git@github.com:mattn/emmet-vim.git'
 call plug#end()
