@@ -69,7 +69,7 @@ alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
 
 ########################################
-#Erik's custom aliases
+#     Erik's custom aliases            #
 ########################################
 
 #navigation
@@ -113,7 +113,7 @@ alias rm="rm -i"
 alias calc="galculator"
 
 #config for git_dotfile_repo
-alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME' 
+alias gitb='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME' 
 
 #ranger
 alias fm="ranger"
