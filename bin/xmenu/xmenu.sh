@@ -14,6 +14,8 @@ Imaging
 	Inkscape		inkscape
 Audio / Video
 	Audacity		env UBUNTU_MENUPROXY=0 audacity
+	KdenLive		kdenlive
+	OBS-Studio		obs
 	Reaper			"/home/erik/.bin/reaper_linux_x86_64/REAPER/reaper" %F
 	Spotify			spotify
 	VLC				vlc
@@ -31,7 +33,6 @@ Office
 	Libre Office Write	libreoffice --writer
 
 Dev Tools / Editors
-	Emacs			emacs
 	Geany			geany
 	Vim				termite -e vim
 	VSCodium		codium
