@@ -294,5 +294,6 @@ ex ()
 
 [[ -f ~/.bashrc-personal ]] && . ~/.bashrc-personal
 
+(cat ~/.cache/wal/sequences &)
 neofetch
 set -o vi
