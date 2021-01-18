@@ -21,7 +21,8 @@ export EDITOR=vim;
 #PS1='[\u@\h \W]\$ ' - Original - EDH
 #PS1='[\u@\h:$(pwd)]$ ' - With full path
 #Colorized
-PS1='\e[0;32m[\u@\h:]\e[m \e[0;36m$(pwd) $\e[m '
+#PS1='\e[0;32m[\u@\h:]\e[m \e[0;36m$(pwd) $\e[m '
+PS1='\e[@\h:$(pwd) $\e[m '
 
 #Colors
 #Replace 0; with 1; to get lighter color
@@ -120,6 +121,12 @@ alias fm="ranger"
 
 #exit terminal
 alias ':q'='exit'
+
+#set wacom tablet area
+alias 'wacom'='xsetwacom --set "Wacom Intuos S Pen stylus" area 0 0 3040 1950'
+
+#Set random wallpaper
+alias 'paper'='wal -i ~/Pictures/wallpaper'
 
 ########################################
 

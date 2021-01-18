@@ -3,6 +3,7 @@
 
 cat <<EOF | xmenu | sh &
 Web
+	Brave	brave
 	Chrome	chromium
 	Firefox	firefox
 	Mail	thunderbird
@@ -14,6 +15,7 @@ Imaging
 	Inkscape		inkscape
 Audio / Video
 	Audacity		env UBUNTU_MENUPROXY=0 audacity
+	Ardour			ardour6
 	KdenLive		kdenlive
 	OBS-Studio		obs
 	Reaper			"/home/erik/.bin/reaper_linux_x86_64/REAPER/reaper" %F
