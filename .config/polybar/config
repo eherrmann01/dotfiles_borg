@@ -79,8 +79,9 @@ volume-max = #bf616a
 ;https://github.com/jaagr/polybar/wiki/Configuration
 
 monitor = ${env:MONITOR}
-;monitor-fallback = HDMI1
-monitor-strict = false 
+;monitor = DisplayPort-2
+monitor-fallback = HDMI-A-0
+monitor-strict = true 
 override-redirect = false
 bottom = false
 fixed-center = true
@@ -172,7 +173,7 @@ cursor-scroll =
 
 [bar/mainbar-i3-extra]
 ;https://github.com/jaagr/polybar/wiki/Configuration
-monitor = ${env:MONITOR}
+;monitor = ${env:MONITOR}
 ;monitor-fallback = HDMI1
 monitor-strict = false
 override-redirect = false
@@ -964,17 +965,17 @@ fuzzy-match = false
 ;http://fontawesome.io/cheatsheet/
 ;       v        
 
-ws-icon-0 = 1;
-ws-icon-1 = 2;
-ws-icon-2 = 3;
-ws-icon-3 = 4;
-ws-icon-4 = 5;
-ws-icon-5 = 6;
-ws-icon-6 = 7;
-ws-icon-7 = 8;
-ws-icon-8 = 9;
-ws-icon-9 = 10;
-ws-icon-default = " "
+;ws-icon-0 = 1;
+;ws-icon-1 = 2;
+;ws-icon-2 = 3;
+;ws-icon-3 = 4;
+;ws-icon-4 = 5;
+;ws-icon-5 = 6;
+;ws-icon-6 = 7;
+;ws-icon-7 = 8;
+;ws-icon-8 = 9;
+;ws-icon-9 = 10;
+;ws-icon-default = " "
 
 ; Available tags:
 ;   <label-state> (default) - gets replaced with <label-(focused|unfocused|visible|urgent)>
