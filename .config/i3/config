@@ -353,7 +353,7 @@ exec --no-startup-id i3-msg 'workspace 1; exec /usr/bin/barrier'
 exec_always --no-startup-id autotiling
 
 # Redshift - screen temprature control
-exec_always --no-startup-id redshift-gtk
+#exec_always --no-startup-id redshift-gtk
 
 #text-editor
 #exec --no-startup-id geany
@@ -393,7 +393,7 @@ exec_always --no-startup-id numlockx on
 #exec --no-startup-id insync start
 
 # volume
-#exec --no-startup-id pasystray
+exec_always --no-startup-id /usr/bin/pasystray
 #exec --no-startup-id volumeicon
 
 #variety

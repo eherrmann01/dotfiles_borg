@@ -19,8 +19,8 @@ margin-bottom = 0
 [settings]
 ;https://github.com/jaagr/polybar/wiki/Configuration#application-settings
 throttle-output = 5
-throttle-output-for = 10
-throttle-input-for = 30
+;throttle-output-for = 10
+;throttle-input-for = 30
 screenchange-reload = true
 compositing-background = over
 compositing-foreground = over
@@ -99,7 +99,7 @@ foreground = ${colors.foreground}
 
 radius = 0.0
 line-size = 2
-line-color = #000000  ;EDH
+line-color = #000000  
 
 border-size = 0
 ;border-left-size = 25
@@ -120,10 +120,10 @@ font-1 = "FontAwesome:size=10;0"
 font-2 = "Noto Sans:size=10;0"
 font-3 = "Noto Sans Mono:size=10;0"
 
-modules-left = i3 xwindow -EDH
+modules-left = i3 xwindow 
 modules-center = date weather 
 ;modules-right = networkspeedup networkspeeddown memory2 cpu2 volume 
-modules-right = volume 
+;modules-right = volume 
 separator = //
 
 ;dim-value = 1.0
@@ -998,7 +998,7 @@ label-focused = %icon% %name%
 label-focused-background = ${colors.background}
 label-focused-foreground = ${colors.foreground}
 label-focused-underline = #6790eb
-;label-focused-underline = #002f343f -EDH
+;label-focused-underline = #002f343f 
 label-focused-padding = 2
 
 ; Available tokens:
@@ -1329,7 +1329,7 @@ time = %l: %M %p
 ;format-prefix = " "
 format-prefix-foreground = #c1941a
 ;format-underline = #c1941a
-format-underline = #002f343f -EDH
+format-underline = #002f343f 
 format-foreground = ${colors.foreground}
 format-background = ${colors.background}
 label = %date%    %time%
@@ -1516,7 +1516,7 @@ format = <label> <bar-used>
 format-prefix = "  "
 format-prefix-foreground = #3384d0
 ;format-underline = #3384d0
-format-underline = #002f343f -EDH
+format-underline = #002f343f 
 format-foreground = ${colors.foreground}
 format-background = ${colors.background}
 
@@ -1541,7 +1541,7 @@ format = Mem <label>
 format-prefix = "  "
 format-prefix-foreground = #3384d0
 ;format-underline = #3384d0
-format-underline = #002f343f ;-EDH
+format-underline = #002f343f 
 format-foreground = ${colors.foreground}
 format-background = ${colors.background}
 
