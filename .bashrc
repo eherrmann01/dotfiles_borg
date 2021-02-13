@@ -111,7 +111,11 @@ alias mv="mv -i"
 #Safely delete files
 alias rm="rm -i"
 
+#calculatr
 alias calc="galculator"
+
+#Redshift
+alias night="redshift-gtk -l 30.47741:-90.96232 &"
 
 #config for git_dotfile_repo
 alias gitb='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME' 

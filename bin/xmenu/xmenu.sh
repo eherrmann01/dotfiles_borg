@@ -24,12 +24,13 @@ Audio / Video
 
 Apps
 	Calculator		galculator
+	File Compare	meld
 	Unit converter	convertall
 	Virtual Box		VirtualBox
 
 Office
 	Libre Office Base	libreoffice --base
-	Libre Office Calc	libreoffice --calc 
+	Libre Office Calc	libreoffice --calc ~/Documents/healthcare/bp_tracking.ods
 	Libre Office Impress	libreoffice --impress
 	Libre Office Math	libreoffice --math
 	Libre Office Write	libreoffice --writer
