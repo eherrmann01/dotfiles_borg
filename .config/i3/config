@@ -414,8 +414,6 @@ exec_always --no-startup-id ~/mousefix.sh &
 #redshift
 exec_always --no-startup-id ~/bin/run_scripts/nightrc &
 
-#Start SSH daemon - WIP
-#exec_always --no-startup-id ~/startssh.sh &
 
 #####################################################################################################################
 #################                                 system applications                               #################

@@ -23,6 +23,7 @@ Audio / Video
 	VLC				vlc
 
 Apps
+	Bitwarden		bitwarden
 	Calculator		galculator
 	File Compare	meld
 	Unit converter	convertall

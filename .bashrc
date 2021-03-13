@@ -127,7 +127,7 @@ alias fm="ranger"
 alias ':q'='exit'
 
 #set wacom tablet area
-alias 'wacom'='xsetwacom --set "Wacom Intuos S Pen stylus" area 0 0 3040 1950'
+alias 'wacom'='xsetwacom --set "Wacom Intuos S Pen stylus" area 0 0 3040 2050'
 
 #Set random wallpaper
 alias 'paper'='wal -i ~/Pictures/wallpaper'
