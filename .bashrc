@@ -130,7 +130,7 @@ alias ':q'='exit'
 alias 'wacom'='xsetwacom --set "Wacom Intuos S Pen stylus" area 0 0 3040 2050'
 
 #Set random wallpaper
-alias 'paper'='wal -i ~/Pictures/wallpaper'
+alias 'paper'='wal -qei  ~/Pictures/wallpaper'
 
 ########################################
 

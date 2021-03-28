@@ -51,7 +51,7 @@ cursor_shape = block
 #foreground      = #a3a3a3
 #foreground_bold = #e8e8e8
 #cursor          = #e8e8e8
-#background = rgba(40, 42, 54, 0.85)
+#background = rgba(40, 42, 54, 0.95)
 #
 ## 16 color space
 #
@@ -229,7 +229,7 @@ cursor_shape = block
 #foreground      = #d9d8d8
 #foreground_bold = #e7e7e8
 #cursor          = #e7e7e8
-#background = rgba(40, 42, 54, 0.8)
+#background = rgba(40, 42, 54, 0.95)
 #
 ## 16 color space
 #
@@ -277,7 +277,7 @@ cursor_shape = block
 foreground      = #e0e0e0
 foreground_bold = #f5f5f5
 cursor          = #f5f5f5
-background = rgba(40, 42, 54, 0.8)
+background = rgba(40, 42, 54, 0.95)
 
 # 16 color space
 
