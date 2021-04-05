@@ -81,7 +81,7 @@ alias .4='../../../..'
 alias .5='../../../../..' 
 
 #Update system
-alias update="pacman -Syu" 
+#alias update="pacman -Syu" 
 
 #Change terminal editor to vim - EDH
 export VISUAL=vim

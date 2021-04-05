@@ -36,6 +36,7 @@ Edit Config Files
 File Managers
 	Dolphin			dolphin
 	Pcmanfm			pcmanfm
+	Ranger			termite -e ranger
 	Spacefm			spacefm
 	Thunar			thunar
 	Vifm			termite -e vifm
@@ -48,7 +49,7 @@ Imaging
 	
 Office
 	Libre Office Base	libreoffice --base
-	Libre Office Calc	libreoffice --calc 
+	Libre Office Calc	libreoffice --calc ~/Documents/healthcare/bp_tracking.ods
 	Libre Office Impress	libreoffice --impress
 	Libre Office Math	libreoffice --math
 	Libre Office Write	libreoffice --writer
@@ -60,20 +61,23 @@ System Tools
 	Gparted			gparted
 	HTOP			termite -e htop
 	ISO writer		/opt/balenaEtcher/balena-etcher-electron %U
+	Meld			meld
 	Timeshift		timeshift-launcher
 	Tweaks			arcolinux-tweak-tool
 	Nitrogen		nitrogen
+	Pulseaudio EQ	pulseaudio-equalizer-gtk
 
 Terminals
 	termite	
 	xfce4-terminal
 	urxvt
 
-Web
+Web / Email
 	Brave	brave
 	Chrome	chromium
 	Firefox	firefox
 	Mail	thunderbird
+	Protonmail-Bridge	protonmail-bridge
 
 Shutdown		poweroff
 Reboot			reboot

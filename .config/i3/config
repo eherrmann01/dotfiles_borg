@@ -18,7 +18,6 @@
 #####################################################################################################################
 #################                          Define the $mod variable/key                             #################
 #####################################################################################################################
-
 # Key to rule them all : Super(Windows) or Alt key?
 
 # Mod4 = Windows or Super key on keyboard
@@ -401,6 +400,9 @@ exec_always --no-startup-id /usr/bin/pasystray
 
 # clipman
 exec --no-startup-id xfce4-clipman
+
+# protonmail
+exec_always --no-startup-id protonmail-bridge
 
 #feh sets wallpaper
 #exec --no-startup-id feh --bg-scale /usr/share/backgrounds/arcolinux/breakingofday-1920x1080.png & - EDH
