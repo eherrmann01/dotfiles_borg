@@ -13,6 +13,7 @@ Apps
 Audio / Video
 	Audacity		env UBUNTU_MENUPROXY=0 audacity
 	OBS Studio		obs
+	Pulseaudio Mixer	pulseaudio-equalizer-gtk
 	Reaper			"/home/erik/.bin/reaper_linux_x86_64/REAPER/reaper" %F
 	Spotify			spotify
 	VLC				vlc
@@ -27,6 +28,7 @@ Edit Config Files
 	Imwheel			exec termite -e ~/bin/run_scripts/imwheelrc
 	Picom			exec termite -e ~/bin/run_scripts/picomrc
 	Polybar			exec termite -e ~/bin/run_scripts/pbrc
+	Qtile			exec termite -e ~/bin/run_scripts/qtilerc
 	Termite			exec termite -e ~/bin/run_scripts/termrc
 	Vifmrc			exec termite -e ~/bin/run_scripts/vifmrc
 	Vimrc			exec termite -e ~/bin/run_scripts/virc
@@ -50,6 +52,7 @@ Imaging
 Office
 	Libre Office Base	libreoffice --base
 	Libre Office Calc	libreoffice --calc ~/Documents/healthcare/bp_tracking.ods
+	Libre Office Draw	libreoffice --draw 
 	Libre Office Impress	libreoffice --impress
 	Libre Office Math	libreoffice --math
 	Libre Office Write	libreoffice --writer
@@ -61,11 +64,13 @@ System Tools
 	Gparted			gparted
 	HTOP			termite -e htop
 	ISO writer		/opt/balenaEtcher/balena-etcher-electron %U
+	LXAppearacne	lxappearance
 	Meld			meld
 	Timeshift		timeshift-launcher
 	Tweaks			arcolinux-tweak-tool
 	Nitrogen		nitrogen
 	Pulseaudio EQ	pulseaudio-equalizer-gtk
+	QT Theme Manager	qt5ct
 
 Terminals
 	termite	
