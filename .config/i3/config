@@ -402,7 +402,10 @@ exec_always --no-startup-id /usr/bin/pasystray
 exec --no-startup-id xfce4-clipman
 
 # protonmail
-exec_always --no-startup-id protonmail-bridge
+#exec_always --no-startup-id protonmail-bridge
+
+# kill protonmail-bridge window
+exec_always --no-startup-id ~/bin/shell_scripts/minimize_proton.sh &
 
 #feh sets wallpaper
 #exec --no-startup-id feh --bg-scale /usr/share/backgrounds/arcolinux/breakingofday-1920x1080.png & - EDH
@@ -708,7 +711,7 @@ popup_during_fullscreen smart
 # delete or uncomment the following lines if you do not have it or do not
 # want it
 
-for_window [class="^.*"] border pixel 0  #EDH
+for_window [class="^.*"] border pixel 0 #EDH
 gaps inner 8
 gaps outer 5
 #smart_gaps on
@@ -773,7 +776,7 @@ bindsym control+mod1+o exec --no-startup-id ~/.config/i3/scripts/picom-toggle.sh
 
     # Window color settings
     # class                 border  backgr. text    indicator
-    client.focused          #eeae0a #eeae0a #ffffff #eeae0a
+    client.focused          #eeae0a #eeae0a #eeae0a #eeae0a
     client.unfocused        #222222 #222222 #aaaaaa #222222
     client.focused_inactive #222222 #222222 #a9a9a9 #222222
     client.placeholder      #222222 #222222 #aaaaaa #222222

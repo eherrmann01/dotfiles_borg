@@ -34,6 +34,7 @@ Edit Config Files
 	Vimrc			exec termite -e ~/bin/run_scripts/virc
 	Xfce			exec termite -e ~/bin/run_scripts/xfcerc
 	Xmenu			exec termite -e ~/bin/run_scripts/xmenurc
+	Zshrc			exec termite -e ~/bin/run_scripts/zshrc
 
 File Managers
 	Dolphin			dolphin

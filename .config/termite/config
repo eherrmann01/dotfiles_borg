@@ -181,45 +181,46 @@ cursor_shape = block
 
 ###############################
 #     #Erik.Dark1
-#
-#[colors]
-#
-## special
-#foreground      = #89f0dc
-#foreground_bold = #89f0dc
-#cursor          = #89f0dc
+
+[colors]
+
+# special
+foreground      = #89f0dc
+foreground_bold = #89f0dc
+cursor          = #89f0dc
 #background      = #1f2127
-#
-## black
-#color0  = #324775
-#color8  = #456d4c
-#
-## red
-#color1  = #f6606f
-#color9  = #c7424f
-#
-## green
-#color2  = #6b7562
-#color10 = #78bc3e
-#
-## yellow
-#color3  = #846a37
-#color11 = #ebcb8b
-#
-## blue
-#color4  = #32fdff
-#color12 = #8fa1b3
-#
-## magenta
-#color5  = #b48e91
-#color13 = #b48ead
-#
-## cyan
-#color6  = #e7e54d
-#color14 = #96b5b4
-#
-## white
-#color7  = #c0c0ce
+background      = rgba(31, 33, 39, 0.93)
+
+# black
+color0  = #324775
+color8  = #456d4c
+
+# red
+color1  = #f6606f
+color9  = #c7424f
+
+# green
+color2  = #6b7562
+color10 = #78bc3e
+
+# yellow
+color3  = #846a37
+color11 = #ebcb8b
+
+# blue
+color4  = #32fdff
+color12 = #8fa1b3
+
+# magenta
+color5  = #b48e91
+color13 = #b48ead
+
+# cyan
+color6  = #e7e54d
+color14 = #96b5b4
+
+# white
+color7  = #c0c0ce
 #
 #
 ##############################
@@ -274,48 +275,48 @@ cursor_shape = block
 ##############################
 
 
-foreground      = #e0e0e0
-foreground_bold = #f5f5f5
-cursor          = #f5f5f5
-background = rgba(40, 42, 54, 0.95)
-
-# 16 color space
-
-# Black, Gray, Silver, White
-color0  = #000000
-color8  = #b0b0b0
-color7  = #e0e0e0
-color15 = #ffffff
-
-# Red
-color1  = #fb0120
-color9  = #fb0120
-
-# Green
-color2  = #a1c659
-color10 = #a1c659
-
-# Yellow
-color3  = #fda331
-color11 = #fda331
-
-# Blue
-color4  = #6fb3d2
-color12 = #6fb3d2
-
-# Purple
-color5  = #d381c3
-color13 = #d381c3
-
-# Teal
-color6  = #76c7b7
-color14 = #76c7b7
-
-# Extra colors
-color16 = #fc6d24
-color17 = #be643c
-color18 = #303030
-color19 = #505050
-color20 = #d0d0d0
-color21 = #f5f5f5
+#foreground      = #e0e0e0
+#foreground_bold = #f5f5f5
+#cursor          = #f5f5f5
+#background = rgba(40, 42, 54, 0.95)
+#
+## 16 color space
+#
+## Black, Gray, Silver, White
+#color0  = #000000
+#color8  = #b0b0b0
+#color7  = #e0e0e0
+#color15 = #ffffff
+#
+## Red
+#color1  = #fb0120
+#color9  = #fb0120
+#
+## Green
+#color2  = #a1c659
+#color10 = #a1c659
+#
+## Yellow
+#color3  = #fda331
+#color11 = #fda331
+#
+## Blue
+#color4  = #6fb3d2
+#color12 = #6fb3d2
+#
+## Purple
+#color5  = #d381c3
+#color13 = #d381c3
+#
+## Teal
+#color6  = #76c7b7
+#color14 = #76c7b7
+#
+## Extra colors
+#color16 = #fc6d24
+#color17 = #be643c
+#color18 = #303030
+#color19 = #505050
+#color20 = #d0d0d0
+#color21 = #f5f5f5
 

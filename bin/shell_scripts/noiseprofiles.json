@@ -1,4 +1,5 @@
 {
+  "comment": "This file lives in /usr/share/darktable",
   "version": 0,
   "noiseprofiles": [
     {
