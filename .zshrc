@@ -72,7 +72,7 @@ ENABLE_CORRECTION="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git archlinux jump)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -120,6 +120,9 @@ fi
 ####### Erik's Custom Aliases ####### 
 #####################################
 
+alias ztheme='(){ export ZSH_THEME="$@" && source $ZSH/oh-my-zsh.sh }'
+#j for Jump
+alias j='jump'
 #Exit Terminal
 alias ':q'='exit'
 #Start Ranger File Manager
@@ -142,6 +145,8 @@ alias mv='mv -i'
 alias cp='cp -i'
 #vi for vim
 alias vi='vim'
+#Clear the screen
+alias cl='clear'
 
 #list
 alias ls='ls --color=auto'

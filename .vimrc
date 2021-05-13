@@ -30,6 +30,7 @@ set statusline +=%1*%=%5l%*             "current line
 set statusline +=%2*/%L%*               "total lines
 set statusline +=%1*%4v\ %*             "virtual column number
 set statusline +=%2*0x%04B\ %*          "character under cursor
+set ttymouse=sgr
 hi User1 ctermfg=15 ctermbg=4
 hi User2 ctermfg=15 ctermbg=4
 hi User3 ctermfg=15 ctermbg=4
@@ -44,3 +45,4 @@ Plug 'git@github.com:PotatoesMaster/i3-vim-syntax.git'
 Plug 'git@github.com:Valloric/YouCompleteMe.git'
 Plug 'git@github.com:mattn/emmet-vim.git'
 call plug#end()
+
