@@ -11,45 +11,61 @@
 alias ztheme='(){ export ZSH_THEME="$@" && source $ZSH/oh-my-zsh.sh }'
 # J for Jump
 alias j='jump'
+ 
 # Exit Terminal
-alias ':q'='exit'
+alias :q='exit'
+
 # Start Ranger File Manager
 alias fm='ranger'
+
 # Set Wallpaper
-alias 'paper'='wal -qei  ~/Pictures/wallpaper'
+alias paper='wal -qei  ~/Pictures/wallpaper'
+ 
 # Set wacom tablet area
-alias 'wacom'='xsetwacom --set "Wacom Intuos S Pen stylus" area 0 0 3040 2050'
+alias wacom='xsetwacom --set "Wacom Intuos S Pen stylus" area 0 0 3040 2050'
+
 # Config for git_dotfile_repo
 alias gitb='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
+
 # Redshift
 alias night='redshift-gtk -l 30.47741:-90.96232 &'
+
 # Calculatr
 alias calc='galculator'
+ 
 # Safely delete files
 alias rm='rm -i'
+
 # Safely overwrite files
 alias mv='mv -i'
+
 # Safely copy files
 alias cp='cp -i'
+
 # Vi for vim
 alias vi='vim'
+
 # Clear the screen
 alias cl='clear'
+
 # List
 alias ls='ls --color=auto'
 alias la='ls -a'
 alias ll='ls -la'
 alias l='ls'
 alias l.="ls -A | egrep '^\.'"
+
 # Fix obvious typo's
 alias cd..='cd ..'
 alias pdw="pwd"
 alias udpate='sudo pacman -Syyu'
 alias upate='sudo pacman -Syyu'
+
 # Colorize the grep command output for ease of use (good for log files)
 alias grep='grep --color=auto'
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
+
 # Youtube-dl
 alias yta-aac="youtube-dl --extract-audio --audio-format aac "
 alias yta-best="youtube-dl --extract-audio --audio-format best "
@@ -60,13 +76,18 @@ alias yta-opus="youtube-dl --extract-audio --audio-format opus "
 alias yta-vorbis="youtube-dl --extract-audio --audio-format vorbis "
 alias yta-wav="youtube-dl --extract-audio --audio-format wav "
 alias ytv-best="youtube-dl -f bestvideo+bestaudio "
+
 # Recent Installed Packages
 alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl"
 alias riplong="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -3000 | nl"
+
 # Iso and version used to install ArcoLinux
 alias iso="cat /etc/dev-rel | awk -F '=' '/ISO/ {print $2}'"
+
 # Cleanup orphaned packages
 alias cleanup='sudo pacman -Rns $(pacman -Qtdq)'
+
 # Shutdown or reboot
 alias ssn="sudo shutdown now"
 alias sr="sudo reboot"
+
