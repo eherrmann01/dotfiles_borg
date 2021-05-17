@@ -1,6 +1,16 @@
 #!/bin/bash
+#   ______      _ _      _____     _    _                                               _____      
+#  |  ____|    (_) |    |  __ \   | |  | |                                             / ____|     
+#  | |__   _ __ _| | __ | |  | |  | |__| | ___ _ __ _ __ _ __ ___   __ _ _ __  _ __   | (___  _ __ 
+#  |  __| | '__| | |/ / | |  | |  |  __  |/ _ \ '__| '__| '_ ` _ \ / _` | '_ \| '_ \   \___ \| '__|
+#  | |____| |  | |   <  | |__| |  | |  | |  __/ |  | |  | | | | | | (_| | | | | | | |  ____) | |_  
+#  |______|_|  |_|_|\_\ |_____(_) |_|  |_|\___|_|  |_|  |_| |_| |_|\__,_|_| |_|_| |_| |_____/|_(_) 
+                                                                                                 
+# Imwheel configuration file for erik-borg, updated 05/17/2021
 
-#Command to get window props
+# ~/.imwheelrc 
+# This file sets mouse wheel speed for various programs
+# Command to get window props
 # xprop WM_CLASS | grep -o '"[^"]*"' | head -n 1
 
 "^Navigator$"

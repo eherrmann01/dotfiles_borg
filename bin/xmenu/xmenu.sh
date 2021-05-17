@@ -1,4 +1,15 @@
 #!/bin/sh
+#   ______      _ _      _____     _    _                                               _____      
+#  |  ____|    (_) |    |  __ \   | |  | |                                             / ____|     
+#  | |__   _ __ _| | __ | |  | |  | |__| | ___ _ __ _ __ _ __ ___   __ _ _ __  _ __   | (___  _ __ 
+#  |  __| | '__| | |/ / | |  | |  |  __  |/ _ \ '__| '__| '_ ` _ \ / _` | '_ \| '_ \   \___ \| '__|
+#  | |____| |  | |   <  | |__| |  | |  | |  __/ |  | |  | | | | | | (_| | | | | | | |  ____) | |_  
+#  |______|_|  |_|_|\_\ |_____(_) |_|  |_|\___|_|  |_|  |_| |_| |_|\__,_|_| |_|_| |_| |_____/|_(_) 
+                                                                                                 
+# Configuration file for Xmemu launcher, updated 05/17/2021
+
+# ~/bin/xmenu/xmenu.sh
+                                                                                                 
 # Disable expandtab (:set expandtab!) before editing this file!!
 
 cat <<EOF | xmenu | sh &
@@ -31,9 +42,8 @@ Edit Config Files
 	Picom			exec alacritty -e ~/bin/run_scripts/picomrc
 	Polybar			exec alacritty -e ~/bin/run_scripts/pbrc
 	Qtile			exec alacritty -e ~/bin/run_scripts/qtilerc
-	Termite			exec alacritty -e ~/bin/run_scripts/termrc
 	Vifmrc			exec alacritty -e ~/bin/run_scripts/vifmrc
-	Vimrc			exec alacritty -e ~/bin/run_scripts/virc
+	Vimrc			exec alacritty -e ~/bin/run_scripts/vimrc
 	Xfce			exec alacritty -e ~/bin/run_scripts/xfcerc
 	Xmenu			exec alacritty -e ~/bin/run_scripts/xmenurc
 	Zsh				exec alacritty -e ~/bin/run_scripts/zshrc

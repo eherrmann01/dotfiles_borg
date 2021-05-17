@@ -7,7 +7,7 @@
 
 # i3 configuration file for erik-borg - updated 05/14/2021
 
-
+# ~/config/i3/config
 ## set Super key ##
 set $mod Mod4
 
