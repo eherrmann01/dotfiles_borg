@@ -24,7 +24,7 @@ Dev Tools
 	VSCodium		codium
 
 Edit Config Files
-	alacritty		exec alacritty -e ~/bin/run_scripts/alacrittyrc
+	Alacritty		exec alacritty -e ~/bin/run_scripts/alacrittyrc
 	Bashrc			exec alacritty -e ~/bin/run_scripts/barc
 	I3				exec alacritty -e ~/bin/run_scripts/i3rc
 	Imwheel			exec alacritty -e ~/bin/run_scripts/imwheelrc

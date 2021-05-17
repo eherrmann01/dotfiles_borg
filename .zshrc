@@ -95,8 +95,6 @@ source $ZSH/oh-my-zsh.sh
 
 
 ####   ARCOLINUX SETTINGS   ####
-
-
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 setopt GLOB_DOTS
@@ -115,56 +113,6 @@ fi
 if [ -d "$HOME/.local/bin" ] ;
   then PATH="$HOME/.local/bin:$PATH"
 fi
-
-#####################################
-####### Erik's Custom Aliases ####### 
-#####################################
-
-alias ztheme='(){ export ZSH_THEME="$@" && source $ZSH/oh-my-zsh.sh }'
-#j for Jump
-alias j='jump'
-#Exit Terminal
-alias ':q'='exit'
-#Start Ranger File Manager
-alias fm='ranger'
-#Set Wallpaper
-alias 'paper'='wal -qei  ~/Pictures/wallpaper'
-#set wacom tablet area
-alias 'wacom'='xsetwacom --set "Wacom Intuos S Pen stylus" area 0 0 3040 2050'
-#config for git_dotfile_repo
-alias gitb='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
-#Redshift
-alias night='redshift-gtk -l 30.47741:-90.96232 &'
-#calculatr
-alias calc='galculator'
-#Safely delete files
-alias rm='rm -i'
-#Safely overwrite files
-alias mv='mv -i'
-#Safely copy files
-alias cp='cp -i'
-#vi for vim
-alias vi='vim'
-#Clear the screen
-alias cl='clear'
-
-#list
-alias ls='ls --color=auto'
-alias la='ls -a'
-alias ll='ls -la'
-alias l='ls'
-alias l.="ls -A | egrep '^\.'"
-
-#fix obvious typo's
-alias cd..='cd ..'
-alias pdw="pwd"
-alias udpate='sudo pacman -Syyu'
-alias upate='sudo pacman -Syyu'
-
-## Colorize the grep command output for ease of use (good for log files)##
-alias grep='grep --color=auto'
-alias egrep='egrep --color=auto'
-alias fgrep='fgrep --color=auto'
 
 #readable output
 alias df='df -h'
@@ -250,28 +198,6 @@ alias vbm="sudo /usr/local/bin/arcolinux-vbox-share"
 #shopt -s histappend # do not overwrite history
 #shopt -s expand_aliases # expand aliases
 
-#youtube-dl
-alias yta-aac="youtube-dl --extract-audio --audio-format aac "
-alias yta-best="youtube-dl --extract-audio --audio-format best "
-alias yta-flac="youtube-dl --extract-audio --audio-format flac "
-alias yta-m4a="youtube-dl --extract-audio --audio-format m4a "
-alias yta-mp3="youtube-dl --extract-audio --audio-format mp3 "
-alias yta-opus="youtube-dl --extract-audio --audio-format opus "
-alias yta-vorbis="youtube-dl --extract-audio --audio-format vorbis "
-alias yta-wav="youtube-dl --extract-audio --audio-format wav "
-
-alias ytv-best="youtube-dl -f bestvideo+bestaudio "
-
-#Recent Installed Packages
-alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl"
-alias riplong="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -3000 | nl"
-
-#iso and version used to install ArcoLinux
-alias iso="cat /etc/dev-rel | awk -F '=' '/ISO/ {print $2}'"
-
-#Cleanup orphaned packages
-alias cleanup='sudo pacman -Rns $(pacman -Qtdq)'
-
 #get the error messages from journalctl
 alias jctl="journalctl -p 3 -xb"
 
@@ -291,10 +217,6 @@ alias nconfgrub="sudo nano /boot/grub/grub.cfg"
 alias gpg-check="gpg2 --keyserver-options auto-key-retrieve --verify"
 #receive the key of a developer
 alias gpg-retrieve="gpg2 --keyserver-options auto-key-retrieve --receive-keys"
-
-#shutdown or reboot
-alias ssn="sudo shutdown now"
-alias sr="sudo reboot"
 
 #maintenance
 alias big="expac -H M '%m\t%n' | sort -h | nl"
@@ -332,7 +254,7 @@ ex ()
 #create a file called .zshrc-personal and put all your personal aliases
 #in there. They will not be overwritten by skel.
 
-[[ -f ~/.zshrc-personal ]] && . ~/.zshrc-personal
+[[ -f ~/.zsh_aliases ]] && . ~/.zsh_aliases
 
 bindkey -v
 neofetch
