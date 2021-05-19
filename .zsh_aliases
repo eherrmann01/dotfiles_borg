@@ -25,7 +25,7 @@ alias paper='wal -qei  ~/Pictures/wallpaper'
 alias wacom='xsetwacom --set "Wacom Intuos S Pen stylus" area 0 0 3040 2050'
 
 # Config for git_dotfile_repo
-alias gitb='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
+alias gg='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 
 # Redshift
 alias night='redshift-gtk -l 30.47741:-90.96232 &'
