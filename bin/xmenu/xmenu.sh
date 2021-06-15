@@ -47,6 +47,7 @@ Edit Config Files
 	Xfce			exec alacritty -e ~/bin/run_scripts/xfcerc
 	Xmenu			exec alacritty -e ~/bin/run_scripts/xmenurc
 	Zsh				exec alacritty -e ~/bin/run_scripts/zshrc
+	Zsh Aliases		exec alacritty -e ~/bin/run_scripts/aliasrc
 
 File Managers
 	Dolphin			dolphin
@@ -94,7 +95,7 @@ Web / Email
 	Discord	discord
 	Firefox	firefox
 	Mail	thunderbird
-	Protonmil-Bridge	protonmail-bridge
+	Protonmil-Bridge	/home/erik/bin/proton/pkg/protonmail-bridge-bin/usr/lib/protonmail/bridge/proton-bridge --no-window
 
 Shutdown		poweroff
 Reboot			reboot

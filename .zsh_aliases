@@ -6,7 +6,7 @@
 #  |______|_|  |_|_|\_\ |_____(_) |_|  |_|\___|_|  |_|  |_| |_| |_|\__,_|_| |_|_| |_| |_____/|_(_)
 # 
 
-# Zsh aliases for erik-borg, updated 05/16/2021
+# Zsh aliases for erik-borg, updated 05/20/2021
 
 alias ztheme='(){ export ZSH_THEME="$@" && source $ZSH/oh-my-zsh.sh }'
 # J for Jump
@@ -47,6 +47,9 @@ alias vi='vim'
 
 # Clear the screen
 alias cl='clear'
+
+# Neofetch
+alias neo='neofetch'
 
 # List
 alias ls='ls --color=auto'
