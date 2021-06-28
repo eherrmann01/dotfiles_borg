@@ -45,6 +45,9 @@ alias cp='cp -i'
 # Vi for vim
 alias vi='vim'
 
+# Bashtop
+alias bt='bashtop'
+
 # Clear the screen
 alias cl='clear'
 
