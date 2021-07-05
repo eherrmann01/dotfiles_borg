@@ -62,6 +62,7 @@ Imaging
 	Darktable		darktable	
 	Gimp			gimp
 	Inkscape		inkscape
+	Nomacs			nomacs
 	
 Office
 	Libre Office Base	libreoffice --base
