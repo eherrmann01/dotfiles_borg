@@ -6,7 +6,7 @@
 ;  |______|_|  |_|_|\_\ |_____(_) |_|  |_|\___|_|  |_|  |_| |_| |_|\__,_|_| |_|_| |_| |_____/|_(_)
 ; 
 
-; Polybar configuration file for erik-borg, updated 05/16/2021
+; Polybar configuration file for erik-borg, updated 07/06/2021
 
 ; ~/.config/polybar/config
 
@@ -116,6 +116,7 @@ font-3 = "Noto Sans Mono:size=10;0"
 
 modules-left = i3 xwindow 
 modules-center = date weather 
+modules-right = arch-updates
 ;modules-right = networkspeedup networkspeeddown memory2 cpu2 volume 
 ;modules-right = volume 
 separator = //
@@ -374,11 +375,12 @@ type = custom/script
 exec = ~/.config/polybar/scripts/check-arch-updates.sh
 interval = 1000
 label = Arch: %output%
+click-left = exec alacritty -e sudo pacman -Syu
 format-foreground = ${colors.foreground}
 format-background = ${colors.background}
 format-prefix = "  "
-format-prefix-foreground = #FFBB00
-format-underline = #FFBB00
+format-prefix-foreground = #aa0000
+;format-underline = #FFBB00
 
 [module/aur-updates]
 type = custom/script
@@ -1113,6 +1115,7 @@ format-underline = #002f343f
 format-foreground = ${colors.foreground}
 format-background = ${colors.background}
 exec = python -u ~/.config/polybar/scripts/weather.py
+click-left = exec brave http://accuweather.com
 tail = true
 
 #################################################################################

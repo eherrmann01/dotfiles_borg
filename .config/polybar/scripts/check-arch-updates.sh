@@ -9,5 +9,5 @@ fi
 if [ $updates_arch -gt 0 ]; then
     echo $updates_arch
 else
-    echo "0"
+    echo ""
 fi

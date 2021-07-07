@@ -6,7 +6,7 @@
 #  | |____| |  | |   <  | |__| |  | |  | |  __/ |  | |  | | | | | | (_| | | | | | | |  ____) | |_  
 #  |______|_|  |_|_|\_\ |_____(_) |_|  |_|\___|_|  |_|  |_| |_| |_|\__,_|_| |_|_| |_| |_____/|_(_) 
                                                                                                  
-# Configuration file for Xmemu launcher, updated 05/17/2021
+# Configuration file for Xmemu launcher, updated 07/04/2021
 
 # ~/bin/xmenu/xmenu.sh
                                                                                                  
@@ -22,7 +22,7 @@ Apps
 	Virtual Box		VirtualBox
 
 Audio / Video
-	Audacity		audacity
+	Audacity		firejail audacity
 	Kdenlive		kdenlive
 	OBS Studio		obs
 	PulseAudio		pulseaudio-equalizer-gtk  
@@ -91,10 +91,10 @@ Terminals
 	urxvt
 
 Web / Email
-	Brave	brave
-	Chrome	chromium
-	Discord	discord
-	Firefox	firefox
+	Brave	firejaul brave
+	Chrome	firejail chromium
+	Discord	firejail discord
+	Firefox	firejail firefox
 	Mail	thunderbird
 	Protonmil-Bridge	/home/erik/bin/proton/pkg/protonmail-bridge-bin/usr/lib/protonmail/bridge/proton-bridge --no-window
 
