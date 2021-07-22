@@ -53,7 +53,6 @@ File Managers
 	Dolphin			dolphin
 	Pcmanfm			pcmanfm
 	Ranger			alacritty -e ranger
-	Spacefm			spacefm
 	Thunar			thunar
 	Vifm			exec alacritty -e vifm
 

@@ -222,7 +222,7 @@ exec --no-startup-id i3-msg exec 'nitrogen --restore'
 exec --no-startup-id i3-msg 'workspace 1; exec firejail /usr/bin/brave'
 
 #Start Barrier - EDH
-exec --no-startup-id i3-msg 'workspace 1; exec /usr/bin/barrier'
+exec --no-startup-id i3-msg 'workspace 1; exec /usr/bin/barrier --no-tray'
 
 # Autotiling
 exec_always --no-startup-id autotiling
@@ -323,8 +323,8 @@ bindsym $mod+F3 exec --no-startup-id brave;focus
 # Chromium
 bindsym control+mod1+g exec --no-startup-id chromium;focus
 
-# Dolpphin file manager
-bindsym $mod+F2 exec --no-startup-id dolphin;focus
+# Open file manager
+bindsym $mod+F2 exec --no-startup-id thunar;focus
 
 # Thunderbird mail
 bindsym $mod+F4 exec --no-startup-id thunderbird;focus
